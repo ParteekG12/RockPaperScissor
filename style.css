@@ -1,0 +1,121 @@
+#header
+{
+    background-color: rgb(37, 17, 17);
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PICS */
+
+.pic
+{
+    height: 130px;
+}
+
+.rockk
+{
+    height: 170px;
+}
+
+.rock
+{
+    background-color: #f80a7d;
+}
+
+.paper
+{
+    background-color: #fed700;
+}
+
+.scissor
+{
+    background-color: #21b0fe;
+}
+
+.pics
+{
+    display: flex;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.options
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 90px;
+
+}
+
+
+
+/* SCORE */
+
+.score
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    
+}
+
+.scoree
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores
+{
+    font-size: 70px;
+    height: 80px;
+    width: 30px;
+}
+
+.name
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/* RESULT */
+
+.result
+{
+    display: inline-block;
+    background-color: gray;
+    height: 60px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.resultt
+{
+    margin-top: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
